@@ -1,0 +1,1789 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+}
+h1, h2, h3, h4, h5, h6, ul, li, img, ol{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Lato', sans-serif;
+}
+a, a:hover{
+    text-decoration: none;
+}
+
+header.sub-header {
+    background: url(../images/bg/sub-header.png) no-repeat bottom center;
+    height: 600px;
+    background-size: cover;
+    width: 100%;
+    position: relative;
+}
+header.header {
+    background: url(../images/bg/Crypto-Payments.png) no-repeat bottom center;
+    height: 650px;
+    background-size: cover;
+    width: 100%;
+    position: relative;
+}
+
+nav {
+
+  /*animaÃƒÆ’Ã‚Â§ÃƒÆ’Ã‚Â£o*/
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+nav.sticky {
+    position: fixed;
+    height: 68px;
+    width: 100%;
+    background: #0e1053;
+    text-align: left;
+    padding: 20px 0px 20px 20px;
+    z-index: 1024;
+}
+
+.logoicon img {
+    width: 200px;
+}
+.navbar-nav .nav-item .nav-link {
+    color: white;
+    font-size: 18px;
+}
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
+    color: #ffc107;
+}
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+    color: #ffc107;
+}
+.navbar {
+    padding: 35px 0 ;
+}
+.btn-light:hover{
+    background: #ffc107;
+    color: white;
+}
+.btn-light:hover {
+    background: #ffc107;
+    color: #3b0e6b;
+}
+.btn-login {
+    color: white;
+    font-size: 19px;
+    font-weight: 700;
+}
+.btn-login:hover {
+    color: #ffc107;
+}
+.btn-SignUp:hover {
+    color: white;
+    opacity: 0.8;
+}
+.btnLung {
+    background: linear-gradient(to right, #8357ce, #9e74f0);
+    color: white;
+    border-radius: 12px;
+    padding: 0 25px 5px 5px;
+    font-size: 17px;
+    font-weight: 700;
+    border: 0;
+    margin: 0;
+    height: 26px;
+}
+a.dropdown-item img {
+    width: 20px;
+    margin-right: 10px;
+}
+.dropdown-menu {
+    background-color: #ece9fc;
+}
+.navbar-nav > .active > a {
+  color: aqua;
+  background-color: chartreuse;    
+}
+.nav-item > a:hover {
+  color: aqua;
+}
+
+.btn-SignUp {
+    background: linear-gradient(to right, #8357ce, #9e74f0);
+    color: white;
+    border-radius: 15px;
+    padding: 4px 20px 5px;
+    font-size: 17px;
+    font-weight: 700;
+    border: 0;
+}
+.banner-caption h1 {
+    color: white;
+    font-size: 32px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.banner-caption h1 span {
+    display: block;
+    text-transform: capitalize;
+    font-size: 36px;
+}
+.banner-caption p {
+    color: white;
+    font-size: 16px;
+    margin-top: 15px;
+}
+.btn-getStarted {
+    background: linear-gradient(45deg, #333696, #7e8bd7);
+    border-radius: 40px;
+    color: white;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 7px 20px;
+    margin: 15px 0;
+    border: 0;
+}
+.banner-caption {
+    margin-top: 65px;
+}
+section.welcome-text {
+    padding: 35px 0;
+    position: relative;
+    /*background: url(../images/bg/welcomebg.png) no-repeat;*/
+}
+section.welcome-text h1 {
+    font-size: 42px;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: #1b184f;
+    text-align: center;
+}
+section.welcome-text h1 span {
+    display: block;
+    font-size: 26px;
+    font-weight: 900;
+    text-align: center;
+    margin: 20px 0;
+}
+section.welcome-text p {
+    text-align: left;
+    font-size: 18px;
+    color: #1b184f;
+}
+.logo-brand img {
+    margin: 30px 15px;
+}
+.yp-img {
+    width: 85px;
+    position: absolute;
+    right: 30px;
+    top: -50px;
+}
+.business-sec {
+    background: url(../images/bg/business.png) no-repeat;
+    height: 650px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 35px 0;
+    position: relative;
+}
+.business-text {
+    text-align: left;
+    color: white;
+}
+.business-text h1 {
+    font-size: 42px;
+    font-weight: 900;
+    text-transform: uppercase;
+    text-align: left;
+    margin-bottom: 20px;
+}
+.business-text p {
+    font-size: 18px;
+}
+.business-g {
+    position: absolute;
+    right: 350px;
+    top: 170px;
+    width: 80px;
+}
+.app-d-g {
+    position: absolute;
+    right: 30px;
+    top: 150px;
+    width: 40px;
+}
+section.Download-app {
+    background: url(../images/bg/download-app-bg.png) no-repeat;
+    background-size: cover;
+    height: 600px;
+    margin-top: -85px;
+    padding-top: 100px;
+    position: relative;
+}
+.download-app-img img {
+    width: 400px;
+}
+.pay-app-store-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pay-app-store-img img{
+    width: 150px;
+        margin: 20px;
+}
+section.Download-app h1 {
+    font-size: 38px;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: #1b184f;
+    text-align: center;
+}
+section.Download-app p {
+    text-align: center;
+    font-size: 18px;
+    color: #1b184f;
+    margin: 15px 0 10px 0;
+}
+section.manage-crypto {
+    background: url(../images/bg/manage-crypto.png) no-repeat;
+    background-size: cover;
+    height: 690px;
+    margin-top: -50px;
+    padding-top: 80px;
+    position: relative;
+    overflow-x: scroll;
+}
+.manage-crypto-box {
+    position: relative;
+    width: 1090px;
+    height: 360px;
+    margin: auto;
+    display: block;
+}
+.ladder-img {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.manage-crypto-box ul li {
+    display: inline-block;
+    width: 165px;
+    position: relative;
+    color: white;
+    text-align: center;
+    margin-left: 10px;
+    height: 360px;
+    margin-right: 10px;
+}
+.manage-crypto-box ul li h3 {
+    font-size: 17px;
+    font-weight: 700;
+    margin: 10px;
+}
+.manage-crypto-box ul li p {
+    font-size: 12px;
+}
+.manage-crypto-box ul {
+    display: flex;
+}
+.manage-crypto-box ul li img {
+    width: 65px;
+}
+.Security-box {
+    position: absolute;
+    bottom: 80px;
+    left: -40px;
+    width: 90%;
+}
+.Industry-box {
+    position: absolute;
+    bottom: 65px;
+    left: -10px;
+    width: 80%;
+}
+.Global-box {
+    position: absolute;
+    bottom: 90px;
+    left: 5px;
+    width: 90%;
+}
+.Auto-Coin-box {
+    position: absolute;
+    bottom: 190px;
+    right: -20px;
+    width: 90%;
+}
+.Auto-Send-box {
+    position: absolute;
+    bottom: 100px;
+    right: -10px;
+    width: 80%;
+}
+.Secure-box {
+    position: absolute;
+    bottom: 215px;
+    left: 50px;
+    width: 90%;
+}
+.Auto-Send-box img {
+    width: 50px!important;
+}
+section.manage-crypto h1 {
+    font-size: 42px;
+    font-weight: 900;
+    text-transform: uppercase;
+    text-align: left;
+    margin-bottom: 20px;
+    color: white;
+}
+section.manage-crypto h1 span{
+    display: block;
+    font-size: 28px;
+}
+.mc-btn {
+    display: flex;
+    justify-content: center;
+}
+section.Getting-Started h1 {
+    font-size: 38px;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: #1b184f;
+    text-align: center;
+}
+section.Getting-Started {
+    padding: 35px 0;
+    position: relative;
+}
+.GSEasy-stap img {
+    width: 60px;
+    margin-right: 30px;
+}
+.GSEasy-stap ul li {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 35px 0;
+}
+.GSEasy-stap ul li h4 {
+    font-size: 22px;
+    font-weight: 600;
+    color: #1b184f;
+}
+.GSEasy-stap p {
+    margin: 0;
+    font-size: 18px;
+}
+.Getting-Started-img img {
+    width: 250px;
+    display: flex;
+    margin: 40px auto 20px;
+}
+section.SomeTalk {
+    background: url(../images/bg/SomeTalk.png) no-repeat;
+    background-size: cover;
+    height: 610px;
+    padding-top: 100px;
+}
+section.SomeTalk h1 {
+    font-size: 42px;
+    font-weight: 900;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 20px;
+    color: white;
+}
+section.SomeTalk  .carousel-item {
+    text-align: center;
+    padding: 15px 65px;
+}
+section.SomeTalk .carousel-item img {
+    margin: auto;
+}
+section.SomeTalk .carousel-item h3 {
+    color: white;
+    font-size: 24px;
+    font-weight: 700;
+    margin: 15px 0;
+}
+section.SomeTalk .carousel-item h3 span{
+    display: block;
+    font-weight: 100;
+}
+section.SomeTalk .carousel-item p {
+    color: white;
+    font-size: 18px;
+}
+.staricon {
+    margin: 10px auto!important;
+    width: 150px;
+}
+.userimG {
+    width: 85px;
+    height: 85px;
+    margin: auto;
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer.footer {
+    background: url(../images/bg/footer-bg.png) no-repeat right bottom;
+    background-size: 400px;
+    padding-top: 50px;
+}
+.logo-f img {
+    width: 220px;
+    margin-bottom: 30px;
+}
+.footer-1 p {
+   color: #485693;
+    font-size: 16px;
+}
+.footer-1 ul li {
+    display: inline-block;
+    margin: 5px 10px 10px 0px;
+}
+.footer-1 ul li img {
+    width: 30px;
+}
+.footer-1 .pay-app-store-img {
+    justify-content: flex-start!important;
+}
+.footer-1 .pay-app-store-img img {
+    width: 125px;
+    margin: 30px 5px 20px 0px!important;
+}
+.footer-2 h2 {
+    text-transform: uppercase;
+    font-size: 22px;
+    font-weight: 700;
+    margin: 15px 0;
+    color: #093dcc;
+}
+.footer-2 ul li {
+    display: block;
+    margin: 5px 0;
+}
+.footer-2 ul li a {
+    color: #485693;
+    font-size: 16px;
+}
+p.copyright {
+    color: #1b184f;
+    font-size: 18px;
+    margin-top: 30px;
+}
+.banner-men {
+    position: absolute;
+    top: 130px;
+    left: 60%;
+    width: 100px;
+}
+.bannerrobot {
+    position: absolute;
+    top: 140px;
+    right: 20%;
+    width: 100px;
+}
+.navbar-light .navbar-toggler {
+    background: #c2ccf0;
+}
+.How-it-work-box {
+    background: #ece8fc;
+    padding: 20px;
+    border-radius: 12px;
+    margin: 50px 0 75px;
+    position: relative;
+}
+.How-it-work-box h3 {
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+}
+.left-work-box .How-it-work-box:after {
+    content: "";
+    background: #ece8fc;
+    width: 30px;
+    height: 30px;
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    position: absolute;
+    top: -20px;
+    left: 80px;
+}
+.left-work-box .step-1 {
+    width: 100px;
+    position: absolute;
+    top: -50px;
+    left: 0;
+}
+.right-work-box .How-it-work-box:after {
+    content: "";
+    background: #ece8fc;
+    width: 30px;
+    height: 30px;
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    position: absolute;
+    top: -20px;
+    right: 80px;
+}
+.right-work-box .step-1 {
+    width: 100px;
+    position: absolute;
+    top: -50px;
+    right: 0;
+}
+.business-auto {
+    padding: 45px;
+}
+section.GS-sec {
+    background: url(../images/bg/Getting-Started.png) no-repeat;
+    background-size: cover;
+    min-height: 600px;
+    padding: 100px 0;
+    /*margin-top: -90px;*/
+    margin-top: -100px;
+    z-index: 99;
+    position: relative;
+}
+.midGsbox .GsBox {
+    height: 500px;
+}
+.GsBox {
+    background: linear-gradient(to top, #131a5dc9, #3e5f89d9);
+    border-radius: 20px;
+    padding: 25px;
+    margin-top: 35px;
+    height: 400px;
+    color: white;
+}
+.Gs-user-name-img {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.GsBox h2 {
+    font-size: 34px;
+    font-weight: 700;
+    margin-left: 15px;
+}
+.GsBox p {
+    font-size: 18px;
+    text-align: center;
+}
+section.GS-sec h1 {
+    font-size: 42px;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: #1b184f;
+    text-align: center;
+}
+section.GS-sec h1 span {
+    font-size: 32px;
+    font-weight: 400;
+    display: block;
+}
+.banner-caption-add-coin h1 {
+    text-align: center;
+    color: white;
+    margin-top: 150px;
+    font-weight: 900;
+    font-size: 62px;
+    text-transform: uppercase;
+}
+.banner-caption-add-coin h1 span {
+    display: block;
+    font-weight: 600;
+    font-size: 42px;
+    text-transform: capitalize;
+}
+.HotReq h1 {
+    font-size: 36px;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: #1b184f;
+    text-align: right;
+    margin-bottom: 25px;
+}
+.HotReq p {
+    font-size: 18px;
+    text-align: right;
+    font-weight: 600;
+    padding-left: 20px;
+}
+section.Coin-Hosting-Pay {
+    background: url(../images/bg/CH-Pay.png) no-repeat;
+    background-size: cover;
+    min-height: 650px;
+    margin-top: -70px;
+    padding: 80px 0;
+    z-index: 99;
+    position: relative;
+}
+section.Coin-Hosting-Req img {
+    width: 450px;
+    margin: -70px auto 0 auto;
+    display: block;
+}
+.HotReq {
+    margin-top: 50px;
+}
+section.Coin-Hosting-Pay h1 {
+    font-size: 36px;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: white;
+    text-align: left;
+    margin-bottom: 25px;
+    margin-top: 50px;
+}
+.CH-pay {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    margin-left: -25px;
+}
+.CH-pay h3 {
+    color: white;
+    font-size: 24px;
+    font-weight: 600;
+    margin-left: 20px;
+}
+section.Coin-Hosting-Pay ul {
+    margin-left: 150px;
+}
+section.Coin-Hosting-Pay ul li{
+    color: white;
+    font-size: 18px;
+    margin: 5px 0;
+}
+section.Requirments {
+    background: url(../images/bg/Requirments.png) no-repeat;
+    background-size: cover;
+    min-height: 650px;
+    padding: 100px 0;
+    margin-top: -120px;
+    position: relative;
+    z-index: 9;
+}
+section.Requirments h1 {
+    font-size: 36px;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: #1b184f;
+    text-align: left;
+    margin-bottom: 35px;
+    margin-top: 30px;
+}
+section.Requirments ul li {
+    display: flex;
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 35px;
+    color: #1b184f;
+}
+section.Requirments ul li span {
+    display: inline-block;
+    margin-right: 10px;
+}
+section.SubmitRequest {
+    background: url(../images/bg/SReq.png) no-repeat;
+    background-size: cover;
+    min-height: 750px;
+    padding: 250px 0 50px;
+    margin-top: -170px;
+}
+.input-group-text img {
+    position: relative;
+    z-index: 9999;
+    width: 18px;
+}
+.input-group-text  {
+    background: white;
+    border-right: 0;
+    display: inline-block;
+}
+.S-Req .flex-nowrap input.form-control {
+    border-left: 0;
+}
+.S-Req {
+    background: linear-gradient(15deg, #4a4f9d, #676ae0);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px #303482;
+    text-align: center;
+}
+.S-Req h3 {
+    font-size: 28px;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: white;
+    text-align: center;
+    margin-bottom: 25px;
+    margin-top: 10px;
+}
+section.Coin-Hosting-List {
+    background: url(../images/bg/CH-list.png) no-repeat;
+    background-size: cover;
+    min-height: 575px;
+    padding: 20px 0;
+    margin-top: -50px;
+}
+.CH-List h1 {
+    font-size: 36px;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: #1b184f;
+    text-align: left;
+    margin-bottom: 25px;
+}
+.CH-List p {
+    font-size: 18px;
+    text-align: left;
+    font-weight: 600;
+}
+.CH-List{
+    margin-top: 50px;
+}
+section.StoreDirectory {
+    background: url(../images/bg/StoreDirectory.png) no-repeat;
+    background-size: cover;
+    min-height: 300px;
+    padding: 100px 0 25px;
+    margin-top: -70px;
+    position: relative;
+}
+section.StoreDirectory p{
+    color: white;
+    font-size: 18px;
+    text-align: left;
+    font-weight: 600;
+}
+.SD-astro {
+    width: 270px;
+    margin-left: auto;
+    display: block;
+}
+.SD-rocket{
+    width: 100px;
+}
+.SD-plantpink {
+    position: absolute;
+    right: 40px;
+    width: 100px;
+}
+.SD-planetorange {
+    width: 150px;
+    margin: -20px 0px 0 100px;
+}
+
+section.Coin-Univerze-gives {
+    background: url(../images/bg/Coin-Univerze-gives.png) no-repeat bottom;
+    min-height: 500px;
+    padding: 50px 0;
+}
+.storeImG {
+    width: 275px;
+    margin-top: 130px;
+    margin-left: auto;
+    display: block;
+}
+.roc {
+    width: 80px;
+    margin-top: -40px;
+    margin-bottom: 10px;
+}
+.allowsTop p {
+    font-size: 18px;
+    color: #1b184f;
+    font-weight: 600;
+}
+.allowsTop h1 {
+    font-size: 36px;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: #1b184f;
+    text-align: left;
+    margin-bottom: 25px;
+}
+.allowsTop h1 span{
+    display: block;
+    color: #7687db;
+}
+.allowsList li {
+    display: inline-block;
+    width: 24%;
+    margin: 10px 4px;
+}
+.allowsList li a {
+    background: white;
+    box-shadow: 0 0 5px #bbb1b1;
+    padding: 10px;
+    width: 100%;
+    min-height: 75px;
+    text-align: center;
+    color: black;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+}
+.allowsList li a span{
+    display: block;
+    font-weight: 100;
+}
+.allowsList li a:hover, .allowsList-active {
+    background: #2196f3!important;
+    color: white!important;
+}
+section.table-Sec {
+    background: url(../images/bg/tablebg.png) no-repeat;
+    background-size: cover;
+    min-height: 1000px;
+    padding: 80px 0;
+}
+.table-Sec table {
+    color: white;
+    text-align: center;
+    vertical-align: baseline;
+}
+.table-Sec table thead tr th {
+    padding-bottom: 50px;
+    font-weight: 900;
+    font-size: 18px;
+}
+.table-Sec table td img {
+    margin-right: 10px;
+}
+.table-Sec table td{
+    font-size: 18px;
+}
+span.coin-t {
+    display: inline-block;
+    width: 100px;
+}
+.THeight {
+    height: 740px;
+}
+.table-Sec table thead tr th {
+    padding-bottom: 26px;
+    font-weight: 900;
+    font-size: 18px;
+    position: sticky;
+    background: linear-gradient(to top, #3a3c88, #626cda);
+    top: 0;
+    min-width: 130px;
+}
+
+/* Scrollbar Styling */
+::-webkit-scrollbar {
+    width: 10px;
+}
+ 
+::-webkit-scrollbar-track {
+    background-color: #ebebeb;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    background: linear-gradient(to top, #2196f3, #525bb4); 
+}
+
+.illusImG {
+    position: absolute;
+    top: -220px;
+    width: 300px;
+    right: 20px;
+}
+.illusImG-box{
+    position: relative;
+}
+.cTrans p{
+    font-size: 16px;
+    color: white;
+    text-align: center;
+}
+section.Accept-Crypto-Website h1 {
+    font-size: 36px;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: #1b184f;
+    text-align: center;
+    margin-bottom: 25px;
+}
+section.Accept-Crypto-Website h1 span  {
+    display: block;
+}
+
+section.Accept-Crypto-Website h1 span a {
+    color: #7885dc;
+}
+section.Accept-Crypto-Website {
+    background: url(../images/bg/midbg.png) no-repeat;
+    background-size: cover;
+    min-height: 900px;
+    position: relative;
+    padding: 50px 0;
+    margin-top: -70px;
+}
+section.Accept-Crypto-Website .card h5.card-title {
+    color: #262154;
+    font-size: 18px;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+section.Accept-Crypto-Website .card ul li {
+    display: block;
+    position: relative;
+    margin-left: 15px;
+}
+section.Accept-Crypto-Website .card a{
+    color: #262154;
+}
+section.Accept-Crypto-Website .card a:hover{
+    color: #7885dc;
+}
+section.Accept-Crypto-Website .card ul li:before {
+    width: 10px;
+    height: 10px;
+    background: #262154;
+    content: "";
+    display: inline-block;
+    border-radius: 50%;
+    position: absolute;
+    top: 29%;
+    left: -15px;
+}
+section.Accept-Crypto-Website .card {
+    margin-bottom: 30px;
+    box-shadow: 0 0 25px #0e0e84;
+}
+.acw-right {
+    position: absolute;
+    right: 20px;
+    width: 150px;
+}
+.acw-left {
+    position: absolute;
+    left: 20px;
+    width: 100px;
+    top: 0;
+}
+section.FaqSec {
+    background: url(../images/bg/FaqBg.png) no-repeat;
+    background-size: cover;
+    min-height: 890px;
+    padding: 100px 0;
+    margin-top: -100px;
+}
+section.FaqSec .accordion-item {
+    background-color: #ece8fc;
+    border: 1px solid rgba(0,0,0,.125);
+    margin-bottom: 20px;
+    border-radius: 10px!important;
+}
+.accordion-button {
+    font-size: 20px;
+    color: #1b184f;
+    font-weight: 700;
+    background-color: #b0bce9;
+    border-radius: 10px!important;
+}
+.accordion-button:not(.collapsed) {
+    color: #1b184f;
+    background-color: #b0bce9;
+    box-shadow: inset 0 -1px 0 rgb(0 0 0 / 13%);
+}
+.accordion-body {
+    padding: 25px 30px;
+}
+
+section.roadMap {
+    background: url(../images/bg/roodMap.png) no-repeat;
+    background-size: cover;
+    min-height: 1000px;
+    /*margin-top: -50px;*/
+    padding-top: 80px;
+    position: relative;
+    color: white;
+}
+.roodMap-head h1 {
+    font-size: 58px;
+    font-weight: 900;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.roodMap-head h1 img {
+    width: 60px;
+}
+.roodMap-head  {
+    padding: 50px 0 0;
+}
+.Roadmap-wrap {
+    position: relative;
+    padding: 30px 0 150px;
+    width: 1100px;
+    margin: auto;
+    /*height: 620px;*/
+}
+.Roadmap-wrap ul {
+    display: flex;
+}
+.Roadmap-wrap ul li img{
+    width: 50px;
+    margin: 10px 0;
+}
+.Roadmap-wrap ul li {
+    display: inline-block;
+    width: 12%;
+    position: relative;
+    margin: 5px;
+    text-align: center;
+    height: 530px;
+}
+.Roadmap-wrap ul li h3 {
+    font-size: 16px;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+.Roadmap-wrap ul li p{
+    font-size: 12px;
+    padding: 0;
+    margin: 0;
+}
+.roadMap-roadImG {
+    position: absolute;
+    bottom: 160px;
+    left: 0;
+    width: 1100px;
+}
+.roadB-1 {
+    position: absolute;
+    bottom: 40px;
+    right: -17px;
+    z-index: 99;
+    width: 100%;
+}
+.roadB-3 {
+    position: absolute;
+    bottom: -55px;
+    right: -60px;
+    z-index: 99;
+    width: 100%;
+}
+.roadB-5 {
+    position: absolute;
+    bottom: 10px;
+    right: -20px;
+    z-index: 99;
+    width: 100%;
+}
+.roadB-8 {
+    position: absolute;
+    bottom: 40px;
+    right: 70px;
+    z-index: 99;
+    width: 100%;
+}
+.roadB-2 {
+    position: absolute;
+    left: -50px;
+    top: 80px;
+    z-index: 999;
+    width: 100%;
+}
+.roadB-4 {
+    position: absolute;
+    left: -45px;
+    top: 25px;
+    z-index: 999;
+    width: 100%;
+}
+.roadB-6 {
+    position: absolute;
+    left: -74px;
+    top: 62px;
+    z-index: 999;
+    width: 100%;
+}
+.roadB-7 {
+    position: absolute;
+    left: 10px;
+    top: 40px;
+    z-index: 999;
+    width: 100%;
+}
+.Roadmap-wrap:before {
+    content: "";
+    display: inline-block;
+    background: url(../images/roadrocket.png) no-repeat;
+    width: 70px;
+    height: 80px;
+    position: absolute;
+    top: 265px;
+    z-index: 999;
+    background-size: cover;
+    left: -10px;
+}
+.Roadmap-wrap:after {
+    content: "";
+    display: inline-block;
+    background: url(../images/astro.png) no-repeat;
+    width: 130px;
+    height: 130px;
+    position: absolute;
+    top: 125px;
+    z-index: 999;
+    background-size: cover;
+    right: 0;
+}
+section.HWork-sec h2 {
+    font-size: 36px;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: #1b184f;
+    margin-bottom: 25px;
+}
+section.Investor-Association {
+    background: url(../images/bg/Investor-Association.png) no-repeat;
+    background-size: cover;
+    min-height: 400px;
+    padding: 50px 0;
+    position: relative;
+    color: white;
+}
+section.Investor-Association img {
+    width: 350px;
+    position: absolute;
+    bottom: 0;
+}
+.InvestAssocion h2 {
+    color: white;
+    font-weight: 900;
+    margin: 25px 0;
+    font-size: 34px;
+    text-transform: uppercase;
+}
+.Hwork-abImg {
+    position: relative;
+}
+.Hwork-abImg img {
+    position: absolute;
+    bottom: -293px;
+    right: -43px;
+    width: 450px;
+}
+
+section.Brand-Sec {
+    background: url(../images/bg/brand.png) no-repeat;
+    background-size: cover;
+    min-height: 300px;
+    padding: 50px 0 0;
+    text-align: center;
+}
+section.Brand-Sec h2 {
+    font-size: 36px;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: #1b184f;
+    margin-bottom: 35px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+section.Brand-Sec h2 img {
+    width: 60px;
+}
+
+section.Whychoos-Sec {
+    background: url(../images/bg/why-choos-us.png) no-repeat;
+    background-size: cover;
+    min-height: 300px;
+    padding: 50px 0;
+    color: white;
+}
+section.Whychoos-Sec img {
+    height: 400px;
+    margin-left: auto;
+    display: block;
+    margin-top: -22px;
+}
+section.Whychoos-Sec h2 {
+    color: white;
+    font-weight: 900;
+    margin: 25px 0 20px;
+    font-size: 34px;
+    text-transform: uppercase;
+}
+section.Whychoos-Sec h4 {
+    font-size: 18px;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+section.Company-MV{
+    position: relative;
+    padding: 25px 0;
+}
+section.Company-MV h2 {
+    font-size: 36px;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: #1b184f;
+    margin-bottom: 20px;
+}
+section.Company-MV h2 span{
+    text-transform: capitalize;
+}
+.text-right {
+    text-align: right;
+}
+.text-left {
+    text-align: left;
+}
+.mission-H img {
+    height: 180px;
+}
+.vision-H img {
+    height: 240px;
+}
+
+
+section.Team-sec {
+    background: url(../images/bg/team.png) no-repeat;
+    background-size: cover;
+    min-height: 300px;
+    padding: 50px 0;
+    color: white;
+}
+section.Team-sec img {
+       height: 300px;
+    margin-left: auto;
+    display: block;
+    margin-top: 22px;
+}
+section.Team-sec h2 {
+    color: white;
+    font-weight: 900;
+    margin: 25px 0 20px;
+    font-size: 34px;
+    text-transform: uppercase;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*@media screen and (min-width: 1024px){
+    .business-auto {
+    margin: auto;
+}
+}*/
+.allowsList ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+@media screen and (min-width: 768px) and (max-width: 999px){
+    section.manage-crypto {
+    overflow-x: scroll;
+}
+header.header {
+    height: auto;
+    background-size: auto;
+}
+.banner-caption {
+    margin-top: 40px;
+    /*padding-bottom: 100px;*/
+    padding-bottom: 180px;
+}
+section.SomeTalk {
+    height: auto;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+}
+
+
+@media screen and (max-width: 767px){
+    .banner-men
+    {
+        display: none;
+    }
+    .footer-2_contact div
+    {
+        display: inline-grid;
+        width: 49%;
+    }
+    .copyright
+    {
+        display: none;
+    }
+
+    .HIW-mid
+    {
+        text-align: center;
+    }
+    .bannerrobot {
+    position: absolute;
+    top: 130px;
+    right: 10%;
+    width: 50px;
+}
+    footer.footer {
+    background-size: 200px;
+}
+section.Whychoos-Sec {
+    padding: 0 0 100px;
+}
+section.Whychoos-Sec img {
+    margin-top: 112px;
+}
+.Hwork-abImg img {
+    position: relative;
+    bottom: -50px;
+    right: -13px;
+    width: 450px;
+}
+section.Investor-Association img {
+    width: 310px;
+    position: relative;
+    bottom: 49px;
+    margin-top: 30px;
+}
+.roodMap-head h1 {
+    font-size: 36px;
+}
+nav.sticky{
+    height: auto;
+}
+.acw-left {
+    width: 50px;
+    top: -40px;
+}
+section.Accept-Crypto-Website {
+    background: url(../images/bg/midbg.png) no-repeat bottom;
+    background-size: cover;
+    min-height: auto;
+    position: relative;
+    padding: 100px 0 30px;
+    margin-top: 0;
+    background: linear-gradient(to top, #0e1053, white);
+    margin-bottom: 20px;
+}
+.acw-right {
+    width: 130px;
+    top: -30px;
+}   
+.allowsList li a{
+    min-height: 125px;
+}
+.illusImG {
+    position: relative;
+    top: 0;
+    width: 210px;
+    right: 0;
+    margin: -100px auto 30px;
+    display: block;
+}
+.allowsList li {
+    width: 30%;
+}
+
+.banner-caption-add-coin h1 {
+    margin-top: 60px;
+    font-size: 42px;
+}
+.banner-caption-add-coin h1 span {
+    font-size: 28px;
+}
+header.sub-header {
+    height: 450px;
+}
+section.Coin-Hosting-Req img {
+    margin: auto;
+}
+section.Coin-Hosting-Pay{
+    margin-top: 0;
+}
+section.Coin-Hosting-Pay h1 {
+    font-size: 28px;
+    margin-bottom: 25px;
+    margin-top: 10px;
+}
+.CH-pay {
+    margin-left: 0;
+}
+section.Coin-Hosting-Pay ul {
+    margin-left: 40px;
+}
+section.Requirments {
+    /*padding: 0px 0;
+    margin-top: 0;*/
+    padding: 100px 0;
+    margin-top: -140px;
+}
+section.Requirments h1 {
+    margin-bottom: 25px;
+    margin-top: 0;
+}
+section.SubmitRequest {
+    padding: 150px 0 50px;
+    margin-top: -100px;
+}
+.SD-astro {
+    width: 170px;
+    margin-top: 70px;
+}
+.SD-plantpink {
+    position: absolute;
+    right: auto;
+    width: 100px;
+    left: 30px;
+    top: 130px;
+}
+section.StoreDirectory {
+    padding: 100px 0 95px;
+}
+.SD-planetorange {
+    width: 100px;
+    margin: 0px 0px 40px 200px;
+}
+.storeImG {
+    width: 275px;
+    /*margin-top: -100px;*/
+    /*margin-left: auto;*/
+    display: block;
+    /*margin-bottom: 70px;*/
+    margin: -100px auto 60px;
+}
+.astro-tr {
+    width: 290px;
+    margin-top: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+section.manage-crypto {
+    overflow-x: scroll;
+}
+header.header {
+    background-size: cover;
+    height: auto;
+    padding-bottom: 150px;
+}
+.banner-caption {
+    margin-top: 0;
+}
+.yp-img {
+    width: 65px;
+    position: absolute;
+    right: 10px;
+    top: -30px;
+}
+.logo-brand img {
+    margin: 20px auto;
+    display: block;
+    width: 170px;
+}
+.business-sec {
+    background: url(../images/bg/business.png) no-repeat bottom;
+    height: 500px;
+    background-size: cover;
+    position: relative;
+    padding: 0;
+}
+.business-g {
+    position: absolute;
+    right: 20px;
+    top: 90px;
+    width: 50px;
+}
+.download-app-img img {
+    width: 200px;
+    margin: 0 auto 30px;
+    display: block;
+}
+section.Download-app {
+    height: auto;
+    margin-top: -95px;
+    padding-top: 40px;
+    padding-bottom: 60px;
+}
+section.manage-crypto h1 {
+    font-size: 32px;
+}
+section.manage-crypto h1 span {
+    display: block;
+    font-size: 18px;
+}
+section.SomeTalk {
+    height: auto;
+    padding-top: 170px;
+    padding-bottom: 100px;
+}
+section.SomeTalk h1 {
+    font-size: 32px;
+}
+
+.banner-men {
+    position: absolute;
+    top: 370px;
+    left: 60%;
+    width: 100px;
+}
+section.GS-sec {
+    padding: 125px 0;
+    margin-top: -130px;
+}
+section.welcome-text {
+    padding: 0;
+}
+.manage-crypto-box {
+    margin: 0px 40px 20px 40px;
+}
+.pay-app-store-img img {
+    width: 135px;
+    margin: 20px 10px;
+}
+}
+
+#loading {
+        -webkit-animation: rotation 2s infinite linear;
+}
+
+@-webkit-keyframes rotation {
+        from {
+                -webkit-transform: rotate(0deg);
+        }
+        to {
+                -webkit-transform: rotate(359deg);
+        }
+}
+
+img.vert-move {
+    -webkit-animation: mover 1s infinite  alternate;
+    animation: mover 1s infinite  alternate;
+}
+img.vert-move {
+    -webkit-animation: mover 1s infinite  alternate;
+    animation: mover 1s infinite  alternate;
+}
+@-webkit-keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-10px); }
+}
+@keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-10px); }
+}
+
+
+@media screen and (min-width: 768px)
+{
+    .copyright1
+    {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 1000px) and (max-width: 1199px)
+{
+    .banner-caption 
+    {
+        margin-top: 36px;
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px)
+{
+    .navbar-nav .nav-item .nav-link 
+    {
+        font-size: 15px;
+    }
+    .S-Req 
+    {
+        margin-top: -40px;
+    }
+    .offset-md-3 
+    {
+        margin-left: 30%;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px)
+{
+    .HIW-mid
+    {
+        position: relative;
+        top: 20%;
+    }
+    .midGsbox .GsBox 
+    {
+        height: 650px;
+    }
+    .GsBox 
+    {
+        height: 500px;
+    }
+    .footer-1 ul li 
+    {
+        display: inline-block;
+        margin: 5px 5px 10px 0px;
+    }
+    .business-auto 
+    {
+         padding: 0px; 
+    }
+    .offset-md-3 
+    {
+        margin-left: 61%;
+    }
+    section.Coin-Hosting-Req img 
+    {
+        margin: 0px auto 0 auto;
+    }
+    .S-Req 
+    {
+        margin-top: -80px;
+    }
+    .banner-men 
+    {
+        left: 75%;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 1199px)
+{
+    nav.sticky 
+    {
+        height: auto;
+    }
+    section.Download-app 
+    {
+        margin-top: -103px;
+    }
+    section.Requirments 
+    {
+        margin-top: -141px;
+    }
+    .allowsList li
+    {
+        width: 32%;
+    }
+    section.Accept-Crypto-Website .card h5.card-title 
+    {
+        font-size: 13px;
+    }
+    section.Accept-Crypto-Website .card a 
+    {
+        font-size: 11px;
+    }
+}
+
+@media screen and (min-width: 1200px)
+{
+    header.header 
+    {
+        height: 690px;
+    }
+    section.Coin-Hosting-Pay 
+    {
+        background-size: 100% 100%;
+        min-height: 710px;
+    }
+    section.Requirments
+    {
+        background-size: 100% 100%;
+        margin-top: -150px;
+    }
+    section.SubmitRequest 
+    {
+        margin-top: -215px;
+    }
+}
+
+@media screen and (min-width: 1600px)
+{
+    section.SubmitRequest 
+    {
+        margin-top: -253px;
+    }
+    .table-Sec .THeight
+    {
+        margin-top: 7px;
+    }
+}
+
+@media screen and (min-width: 1900px)
+{
+    section.table-Sec 
+    {
+        padding: 104px 0;
+    }
+    .S-Req 
+    {
+        margin-top: 58px;
+    }
+    section.SubmitRequest 
+    {
+        margin-top: -300px;
+    }
+    section.Download-app 
+    {
+        margin-top: -97px;
+    }
+    section.GS-sec 
+    {
+        margin-top: -122px;
+    }
+}
